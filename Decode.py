@@ -3,7 +3,7 @@ with open('metadata/data.json', 'r') as file:
     json_data = file.read()
 
 # Chuyển đổi nội dung file JSON thành đối tượng Python
-
+listFeatures = []
 clusters = json.loads(json_data)
 with open('output.txt', 'w') as file:
     # Duyệt qua các đối tượng trong clusters

@@ -34,5 +34,5 @@ def ClusterUseKmeans(features):
 
 def save(data):
     data_json = json.dumps(data)
-    with open("metadata/data1.json", "w") as file:
+    with open("metadata/data.json", "w") as file:
         file.write(data_json)
